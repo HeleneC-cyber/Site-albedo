@@ -1,0 +1,65 @@
+#aboutme {
+  background-color: $primary-color;
+  padding: 135px 0 0 0;
+  .aboutme-wrapper {
+    display: flex;
+    margin: 40px 0 80px 0;
+    justify-content: space-between;
+    align-items: baseline;
+    h3 {
+      width: 50%;
+      font-weight: 800;
+      color: $white;
+    }
+    .text-wrapper {
+      width: 42%;
+      p {
+        font-size: 20px;
+      }
+      p:first-child {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .aboutme-darker {
+    background-color: $secondary-color;
+    padding: 80px 0;
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      article {
+        display: flex;
+        align-items: flex-start;
+        max-width: 30%;
+        img {
+          margin-right: 35px;
+        }
+        .services-text {
+          display: flex;
+          flex-direction: column;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .social {
+    display: flex;
+    padding: 80px 0 130px 20%;
+    p {
+      margin-right: 90px;
+    }
+    ul {
+      display: flex;
+    }
+    i {
+      color: $light-blue;
+      margin-left: 30px;
+      transition-duration: 0.2s;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

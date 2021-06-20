@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: $primary-font;
+  color: $white;
+  hyphens: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: $secondary-font;
+  color: $white;
+  font-size: 56px;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: $quaternary-font;
+  color: $white;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: $secondary-font;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 52px;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: $secondary-font;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.content-wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,93 @@
+#portfolio {
+  background-color: $white;
+  margin-top: 100px;
+  h2 {
+    color: $grey;
+    margin-bottom: 25px;
+  }
+  .portfolio-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      color: $black;
+    }
+  }
+  .portfolio-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 788px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+  .img-wrapper {
+    position: relative;
+    &:hover .img-hover {
+      display: flex;
+    }
+    .img-hover {
+      display: none;
+      height: 100%;
+      width: 100%;
+      background-color: rgba($color: $dark-blue, $alpha: 0.8);
+      position: absolute;
+      top: 0;
+      left: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .categorie {
+        font-size: 16px;
+        color: $grey;
+      }
+      .title-category {
+        font-size: 20px;
+        color: $white;
+        line-height: 30px;
+        font-family: $secondary-font;
+        font-weight: bold;
+        max-width: 50%;
+        text-align: center;
+        margin: 30px 0;
+      }
+      .portfolio-icons {
+        display: flex;
+        justify-content: space-around;
+        width: 80px;
+        i {
+          color: $grey;
+          font-size: 20px;
+          transition-duration: 0.2s;
+          &:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.img01 {
+  height: 480px;
+  width: 960px;
+}
+
+.img02,
+.img03 {
+  width: 480px;
+  height: 308px;
+}
+
+.img04 {
+  height: 788px;
+  width: 480px;
+}
+
+.img05 {
+  height: 480px;
+  width: 480px;
+}
+
+.img06 {
+  width: 480px;
+  height: 308px;
+}

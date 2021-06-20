@@ -1,0 +1,23 @@
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-750px);
+  }
+  63% {
+    transform: translateX(-750px);
+  }
+  66% {
+    transform: translateX(-1500px);
+  }
+  97% {
+    transform: translateX(-1500px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
